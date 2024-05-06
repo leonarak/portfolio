@@ -1,0 +1,16 @@
+<footer class="footer">
+	<ng-template #title
+		><strong
+			><em>{{ footerData["dev"]["name"].toUpperCase() }}</em></strong
+		></ng-template
+	><br /><app-social></app-social>
+	<h2
+		class="wow {{
+			footerData['citation']['animationClass']
+		}} copyright-desc mb-0 h6 mt-2"
+		data-wow-delay="0.05s"
+	>
+		Designed with <i class="{{ footerData['citation']['icon'] }}"></i> By
+		{{ footerData["citation"]["name"] }}
+	</h2>
+</footer>
